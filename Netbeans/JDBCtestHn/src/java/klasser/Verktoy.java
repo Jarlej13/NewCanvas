@@ -24,6 +24,7 @@ public class Verktoy {
     
     public void skrivModuler(PrintWriter out)
     { 
+        //Lager String med kode for å hente info fra database
          String strSelect = "select * from customer";
 
          System.out.println("The SQL query is: " + strSelect); // Echo For debugging
